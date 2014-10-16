@@ -217,7 +217,7 @@ Preventing/Handling spam and offensive content in visible collections
 * In the confirmation screen the name of the collection should link to that collection's landing screen.
 * When the user dismisses the confirmation message the user should return to the app details screen.
 
-<a name="addappnewcollection">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_addappnewcollection.png)</a>
+<a name="addappnewcollection">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_addappnewcollection.png)</a>
 
 **Acceptance criteria for adding an app to a new collection**
 
@@ -230,7 +230,7 @@ Preventing/Handling spam and offensive content in visible collections
 * When the user selects "Create" the user should return to the add to collection screen. The collection they just created should be listed directly after the app wishlist and it should be selected.
 * The user can select additional collections to add the app to.
 
-<a name="addappmodal">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_addappmodal.png)</a>
+<a name="addappmodal">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_addappmodal.png)</a>
 
 **Acceptance criteria for the add to collection modal**
 
@@ -243,7 +243,7 @@ Preventing/Handling spam and offensive content in visible collections
 * The app may be added to multiple collections.
 * If there are 3+ collections a scroll bar should appear.
 
-<a name="createcollection">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_createcollectionfromcollections.png)</a>
+<a name="createcollection">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_createcollectionfromcollections.png)</a>
 
 **Acceptance criteria for creating a collection from the collections screen**
 
@@ -278,7 +278,7 @@ Preventing/Handling spam and offensive content in visible collections
     * If the user selects "Done" and the user has added a description or an app but has not created a name, the user should see a warning scree (see [spec](#collectionnamewarning))
     * If the user selects "Done" and has not inputted any data (no name, description, or apps) no collection is created. The user should be taken back to the "Collections" screen.
 
-<a name="createcollectionviews">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_createcollectionviews.png)</a>
+<a name="createcollectionviews">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_createcollectionviews.png)</a>
 
 **Acceptance criteria for create collections screens**
 
@@ -298,7 +298,7 @@ Preventing/Handling spam and offensive content in visible collections
 * Apps should be listed underneath the add apps call-to-action. 
 * App listing should have a remove icon and icon that indicates that listing can be moved up in down in order.
 
-<a name="collectionnamewarning">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_collectionnamewarning.png)</a>
+<a name="collectionnamewarning">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_collectionnamewarning.png)</a>
 
 **Acceptance criteria for collection name warning**
 
@@ -308,7 +308,7 @@ Preventing/Handling spam and offensive content in visible collections
 * If the user chooses to name her collection, take her to the name field. The cursor should be in the name field and the keyboard up (on mobile) so the user can immediately type in a name.
 
 
-<a name="removeapp">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_removeapp.png)</a>
+<a name="removeapp">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_removeapp.png)</a>
 
 **Acceptance criteria for removing an app from a collection**
 
@@ -316,7 +316,7 @@ Preventing/Handling spam and offensive content in visible collections
 * After x seconds the app listing should fade to white. A message "App removed from collection" should appear and remain for x seconds.
 * After x seconds the apps below should animate up into the space the app that was removed once occupied.
 
-<a name="deletecollection">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_deletecollection.png)</a>
+<a name="deletecollection">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_deletecollection.png)</a>
 
 **Acceptance criteria for deleting a collection**
 
@@ -324,7 +324,7 @@ Preventing/Handling spam and offensive content in visible collections
 * The user must confirm that the collection should be deleted.
 * If the user delete's the collection she should return to the Collections screen where she will see feedback that the collection was successfully deleted. 
 
-<a name="changecollectionbackground">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_changecollectionbackground.png)</a>
+<a name="changecollectionbackground">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_changecollectionbackground.png)</a>
 
 **Acceptance criteria for changing the background of a collection**
 
@@ -333,7 +333,7 @@ Preventing/Handling spam and offensive content in visible collections
 * The current color/pattern combination should be selected in the choose background screen.
 * When user hits done she is taken back to create collection screen where the new color pattern combination has been applied to the graphic.
 
-<a name="editprofile">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_editprofile.png)</a>
+<a name="editprofile">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_editprofile.png)</a>
 
 **Acceptance criteria for editing the avatar and display name for a collection**
 
@@ -342,7 +342,7 @@ Preventing/Handling spam and offensive content in visible collections
 * The new avatar should be displayed when the user returns to the edit profile screen.
 * When user selects done she returns to the create collection or edit collection screen with her new avatar displayed.
 
-<a name="collectionsscreen">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_collectionsscreen.png)</a>
+<a name="collectionsscreen">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_collectionsscreen.png)</a>
 
 **Acceptance criteria for collections screen**
 
@@ -355,7 +355,7 @@ Preventing/Handling spam and offensive content in visible collections
 * If the user has more than 3 collections she should be able to search through her collections. The search box should only appear if the user has 3 or more collections.
 * The search box should appear just above the list of collections.
 
-<a name="appwishlist">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_appwishlist.png)</a>
+<a name="appwishlist">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_appwishlist.png)</a>
 
 **Acceptance criteria for my app wish list**
 
@@ -365,7 +365,7 @@ Preventing/Handling spam and offensive content in visible collections
 * In edit mode the user should be able to remove apps from the list by clicking the remove icon on the app listing.
 * If an app on the wish list is installed by the user the app should be automatically removed from the user's app wishlist.
 
-<a name="communityscreen">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_communityscreen.png)</a>
+<a name="communityscreen">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_communityscreen.png)</a>
 
 **Acceptance criteria for the community screen**
 
@@ -378,7 +378,7 @@ Preventing/Handling spam and offensive content in visible collections
 * The user should be able to share a collection.
 * The user should be able to upvote a collection.
 
-<a name="reportcollection">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_reportcollection.png)</a>
+<a name="reportcollection">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_reportcollection.png)</a>
 
 **Acceptance criteria for flagging a collection for abuse**
 
@@ -387,7 +387,7 @@ Preventing/Handling spam and offensive content in visible collections
 * When the report icon has been selected, an overlay should appear asking for the reason for the report. The three options are: spam, inappropriate language, and inappropriate avatar.
 * After the user has selected the reason for reporting the collection the user should return to the collection landing screen and view feedback that the collection was reported.
 
-<a name="collectionsscreendesktop">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_collectionsscreendesktop.png)</a>
+<a name="collectionsscreendesktop">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_collectionsscreendesktop.png)</a>
 
 **Acceptance criteria for viewing all of your user collections on desktop**
 
@@ -401,7 +401,7 @@ Preventing/Handling spam and offensive content in visible collections
 * If the user has > 6 collections the collections should start being visible as overflow content. A right arrow control should allow the user to scroll through the overflow content.
 * If the user has 0 collections show text to let the user know what collections are. 
 
-<a name="collectioncreatedesktop">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_collectioncreatedesktop.png)</a>
+<a name="collectioncreatedesktop">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_collectioncreatedesktop.png)</a>
 
 **Acceptance criteria for creating a user collection on desktop**
 
@@ -429,7 +429,7 @@ Preventing/Handling spam and offensive content in visible collections
 * If the user selects "Done" and the user has entered a collection name take the user to the collection landing screen.
 * If the user selects "Done" and has not entered a collection name show the user a warning that the collection needs a name to be saved (see [spec](#collectionnamewarning))
 
-<a name="collectionviewdesktop">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_collectionviewdesktop.png)</a>
+<a name="collectionviewdesktop">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_collectionviewdesktop.png)</a>
 
 **Acceptance criteria for viewing a user collection on desktop**
 
@@ -442,7 +442,7 @@ Preventing/Handling spam and offensive content in visible collections
 * Show 3 columns of apps. 
 * Apps should be listed in reverse chronological order from newest to oldest. Apps should be listed in this order from right to left, up to down.
 
-<a name="collectioneditdesktop">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_collectioneditdesktop.png)</a>
+<a name="collectioneditdesktop">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_collectioneditdesktop.png)</a>
 
 **Acceptance criteria for editing a user collection on desktop**
 
@@ -472,7 +472,7 @@ Preventing/Handling spam and offensive content in visible collections
 * If the user selects "Done" and the user has entered a collection name take the user to the collection landing screen.
 * If the user selects "Done" and has not entered a collection name show the user a warning that the collection needs a name to be saved (see...)
 
-<a name="communityscreendesktop">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_communityscreendesktop.png)</a>
+<a name="communityscreendesktop">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_communityscreendesktop.png)</a>
 
 **Acceptance criteria for the community screen on desktop**
 
@@ -486,7 +486,7 @@ Preventing/Handling spam and offensive content in visible collections
 
 #### Viewing all of my user collections on tablet
 
-<a name="collectionscreentablet">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_collectionscreentablet.png)</a>
+<a name="collectionscreentablet">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_collectionscreentablet.png)</a>
 
 **Acceptance criteria for creating a collection on tablet**
 
@@ -497,7 +497,7 @@ Same as for desktop except...
 
 #### Creating a user collection on tablet
 
-<a name="collectioncreatetablet">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_collectioncreatetablet.png)</a>
+<a name="collectioncreatetablet">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_collectioncreatetablet.png)</a>
 
 **Acceptance criteria for creating a collection on tablet**
 
@@ -509,7 +509,7 @@ Same as for desktop except...
 
 #### User collection landing screen on tablet
 
-<a name="collectionviewtablet">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_collectionviewtablet.png)</a>
+<a name="collectionviewtablet">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_collectionviewtablet.png)</a>
 
 **Acceptance criteria for viewing a collection on tablet**
 
@@ -521,7 +521,7 @@ Same as for desktop except...
 
 #### Editing a user collection on tablet
 
-<a name="collectionedittablet">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_collectionedittablet.png)</a>
+<a name="collectionedittablet">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_collectionedittablet.png)</a>
 
 **Acceptance criteria for editing a collection on tablet**
 
@@ -533,7 +533,7 @@ Same as for desktop except...
 
 #### Community screen on tablet
 
-<a name="communityscreentablet">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_communityscreentablet.png)</a>
+<a name="communityscreentablet">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_communityscreentablet.png)</a>
 
 **Acceptance criteria for community screen on tablet**
 
