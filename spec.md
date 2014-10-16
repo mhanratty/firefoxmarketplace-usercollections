@@ -46,10 +46,12 @@ User collections allow the Markeplace to scale content in the feed and help iden
 While user collections can be used by everyone on the Marketplace we believe that the average user and power users will use them in different ways. 
 
 **Average user will:**
+
 * Consume collections to discovery new apps
 * Add apps to the App Wishlist to download later
 
 **Power users will:**
+
 * Create new collections.
 * Share collections with friends & family.
 * Create collections to share with the community.
@@ -91,18 +93,21 @@ Study conducted on UserTesting.com on Febuary 06, 2014
 ## <a name="usercollectionfeatures">User Collection Features</a>
 
 **Collection Types**
+
 * *App Wishlist*. The app wish list is a collection that every user has by default. The app wish list allows the user to save apps to install later or on another device and is intended for personal use. 
 * *Custom Collections*. Custom collections are all other collections that a user creates themselves. These collections can be shared with the Marketplace community.
 
 **Collection Elements**
 
 App Wishlist
+
 * graphic 
 * avatar of the user who created the collection
 * collection title "My App Wishlist"
 * app (app icon, name, developer, content rating, review rating, free button). 
 
 Custom Collection
+
 * auto-generated graphic 
 * display name of user who created the collection
 * avatar of the user who created the collection
@@ -113,10 +118,12 @@ Custom Collection
 **Collection Features**
 
 App wish list features
+
 * Ability to add apps from app details screen.
 * Ability to remove apps.
 
 Custom collection features for collection creator
+
 * Ability to add apps.
 * Ability to make collection visible to all of Marketplace or keep hidden.
 * Ability to view statistics on a collection (shares, views, upvotes).
@@ -125,6 +132,7 @@ Custom collection features for collection creator
 * Ability to delete a collection.
 
 Custom collection features for collection consumer
+
 * Ability to share collection.
 * Ability to upvote the collection.
 * Ability to flag the collection for abuse.
@@ -132,18 +140,21 @@ Custom collection features for collection consumer
 **Collection Visibility**
 
 Collections that are made public by their creators will be visible on the following screens
+
 * "Community" screen accessible via top level navigation 
 * As modules in the feed chosen by the editor
 * Category screens (P2)
 * Search result screens
 
 Visibility rules
+
 * A collection must have three or more apps to be publicly visible on the Marketplace
 * If an app in a collection is not available in the user’s region, by the user’s operator, or on their device (mobile use case), the user will not see that app though they will be able to see the rest of the apps in the collection.
 * If none or less than 3 of the apps in the collection are available in the user’s region, the user’s operator, or on their device (mobile use case) the user will not see that collection.
 * Proposal: Precompute visible collections by the common device profiles so the filtering doesn't have to be done in real time.
  
 Preventing/Handling spam and offensive content in visible collections
+
 * Do not feature new collections prominently (i.e. on the homescreen.)  Make new collections available but only on community screen. Once the collection receives a good reputation (many views, many installs from views, likes, etc.) allow it to be featured on the home screen.
 * Allow users to flag content for abuse. If collection receives 3 abuse flags remove it from "Community" screen.
 * If a user posts a url in titles or description it should not be clickable. (main source of spam for AMO)
@@ -155,7 +166,9 @@ Preventing/Handling spam and offensive content in visible collections
 
 
 ## <a name="userstories">User Stories</a>
+
 ### Mobile
+
 * As a user I want to add an app to an existing collection from the app details screen [github issue](https://github.com/mhanratty/marketplaceux-usercollections/issues/9) | [spec for flow](#addappexistingcollection) | [spec for modal](#addappmodal)
 * As a user I want to add an app to a new collection from the app details screen  [githhub issue](https://github.com/mhanratty/marketplaceux-usercollections/issues/10) | [spec for flow](#addappnewcollection) | [spec for modal](#addappmodal)
 * As a user I want to create a new collection from the "Collections" screen [githhub issue](https://github.com/mhanratty/marketplaceux-usercollections/issues/11) | [spec for flow](#createcollection)  | [spec for create collection screen](#createcollectionviews)
@@ -171,6 +184,7 @@ Preventing/Handling spam and offensive content in visible collections
 * As a user I want to be able to report a collection for abuse [githhub issue](https://github.com/mhanratty/marketplaceux-usercollections/issues/27) | [spec](#reportcollection)
 
 ### Desktop
+
 * As a user I want to view all of my collections on desktop [github issue](https://github.com/mhanratty/marketplaceux-usercollections/issues/28) | [spec](#collectionsscreendesktop)
 * As a user I want to create a collection on desktop [github issue](https://github.com/mhanratty/marketplaceux-usercollections/issues/29) | [spec](#collectioncreatedesktop)
 * As a user I want to view my collection on desktop [spec](#collectionviewdesktop)
@@ -178,6 +192,7 @@ Preventing/Handling spam and offensive content in visible collections
 * As a user I want a dedicated place to view user collections on the Marketplace on desktop [spec](#communityscreendesktop)
 
 ### Tablet
+
 * As a user I want to view all of my collections on tablet [spec](#collectionscreentablet)
 * As a user I want to create a collection on tablet [spec](#collectioncreatetablet)
 * As a user I want to view my collection on tablet [spec](#collectionviewtablet)
@@ -185,6 +200,7 @@ Preventing/Handling spam and offensive content in visible collections
 * As a user I want a dedicated place to view user collection on the Marketplace on tablet. [spec](#communityscreentablet)
 
 ### Curation Tool
+
 * As a curator I want to be able to view collections made by the community.
 * As a curator I want to be able to publish user collections to the feed.
 
@@ -192,6 +208,7 @@ Preventing/Handling spam and offensive content in visible collections
 <a name="addappexistingcollection">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_addappexistingcollection.png)</a>
 
 **Acceptance criteria for adding app to an existing collection**
+
 * Icon to add an app to a collection appears on the app details screen.
 * A modal should open when user selects icon to add app to a collection.
 * If there is only one collection, that collection should be selected.
@@ -203,6 +220,7 @@ Preventing/Handling spam and offensive content in visible collections
 <a name="addappnewcollection">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_addappnewcollection.png)</a>
 
 **Acceptance criteria for adding an app to a new collection**
+
 * When the user selects create a new collection the user should be taken to a new screen.
 * Entering a name for the collection is required. The "Create" button should be disabled until the user has created the collection name.
 * When the user hits enter on the collection name field they should automatically be taken to the description field.
@@ -215,6 +233,7 @@ Preventing/Handling spam and offensive content in visible collections
 <a name="addappmodal">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_addappmodal.png)</a>
 
 **Acceptance criteria for the add to collection modal**
+
 * The collections should be listed with "The App Wishlist" always on top by default. Other collections should be listed in reverse chronological order from newest to oldest.
 * All collections should include the number of apps currently in the collection.
 * If the user only has one collection (the app wishlist) that collection should be selected.
@@ -227,6 +246,7 @@ Preventing/Handling spam and offensive content in visible collections
 <a name="createcollection">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_createcollectionfromcollections.png)</a>
 
 **Acceptance criteria for creating a collection from the collections screen**
+
 * There should be a prominent call to action for the user to create a new collection. When selected this call-to-action should take the user to the create collection screen.
 * Create collection screen
     * The create collection screen should have a "Done" link when the user is finished creating their collection.
