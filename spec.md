@@ -29,6 +29,7 @@ Both consuming and creating collections improves the Marketplace experience for 
 *Discovery*. People want help finding great apps that are relevant to their interests and locale. Collections highlight the best apps. 
 
 **Why users want to create collections**
+
 * *Saving apps for later installation*. People want to be able to save apps for later. They might be on data and want to save an app to download later when they have a wifi connection. Or a user might be deciding between many different types of apps and wants to bookmark them and review them before selecting one and downloading it.
 * *Sharing with friends*. People want to help their friends find cool apps. 
 * *Sharing with the community*. People want to share their expertise of apps with others. 
