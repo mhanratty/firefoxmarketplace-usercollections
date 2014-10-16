@@ -205,7 +205,7 @@ Preventing/Handling spam and offensive content in visible collections
 * As a curator I want to be able to publish user collections to the feed.
 
 ## <a name="specs">Specs</a>
-<a name="addappexistingcollection">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_addappexistingcollection.png)</a>
+<a name="addappexistingcollection">![he can see so much more](http://mhanratty.github.io/firefoxmarketplace-usercollections/img/usercollections_addappexistingcollection.png)</a>
 
 **Acceptance criteria for adding app to an existing collection**
 
