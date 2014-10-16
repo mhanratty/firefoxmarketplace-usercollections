@@ -281,6 +281,7 @@ Preventing/Handling spam and offensive content in visible collections
 <a name="createcollectionviews">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_createcollectionviews.png)</a>
 
 **Acceptance criteria for create collections screens**
+
 * The create collection screen should have a "Done" link when the user is finished creating their collection.
 * The create collection screen should show a default graphic for the collection that is grey with slots for icons for apps that are added.
 * The user's current Markeplace avatar should be visible on the graphic. 
@@ -300,6 +301,7 @@ Preventing/Handling spam and offensive content in visible collections
 <a name="collectionnamewarning">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_collectionnamewarning.png)</a>
 
 **Acceptance criteria for collection name warning**
+
 * When a user selects "Done" and the collection has description or added app (or both) without a name this warning should appear (if the collection has no data, do not show this warning and just take user back to the previous screen.)
 * The user should be able to decide whether to name the collection to save or not to save it. 
 * If the user chooses not to save the collection, take the user back to the previous screen she was on. 
@@ -309,6 +311,7 @@ Preventing/Handling spam and offensive content in visible collections
 <a name="removeapp">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_removeapp.png)</a>
 
 **Acceptance criteria for removing an app from a collection**
+
 * There should be an icon to remove the app from the collection.
 * After x seconds the app listing should fade to white. A message "App removed from collection" should appear and remain for x seconds.
 * After x seconds the apps below should animate up into the space the app that was removed once occupied.
@@ -316,6 +319,7 @@ Preventing/Handling spam and offensive content in visible collections
 <a name="deletecollection">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_deletecollection.png)</a>
 
 **Acceptance criteria for deleting a collection**
+
 * The delete collection button should always be at the bottom of the collection.
 * The user must confirm that the collection should be deleted.
 * If the user delete's the collection she should return to the Collections screen where she will see feedback that the collection was successfully deleted. 
@@ -323,6 +327,7 @@ Preventing/Handling spam and offensive content in visible collections
 <a name="changecollectionbackground">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_changecollectionbackground.png)</a>
 
 **Acceptance criteria for changing the background of a collection**
+
 * The user can only change the background of a collection if at least 1 app is added to the collection
 * The user clicks an icon in the upper right corner to access the choose background selector.
 * The current color/pattern combination should be selected in the choose background screen.
@@ -331,6 +336,7 @@ Preventing/Handling spam and offensive content in visible collections
 <a name="editprofile">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_editprofile.png)</a>
 
 **Acceptance criteria for editing the avatar and display name for a collection**
+
 * Selecting the user's avatar will take the user to the edit profile screen.
 * To edit the avatar the user selects the avatar. The devices gallery app should open. The user can select a profile image from their gallery.
 * The new avatar should be displayed when the user returns to the edit profile screen.
@@ -339,6 +345,7 @@ Preventing/Handling spam and offensive content in visible collections
 <a name="collectionsscreen">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_collectionsscreen.png)</a>
 
 **Acceptance criteria for collections screen**
+
 * The collections screen is in under the main navigation item "Apps and Collections" under a tab labeled "Collections."
 * The app wishlist is in under the main navigation item "Apps and Collections" under a tab labeled "Wishlist." 
 * If the user has no custom collections show a message about collections directly above the create new collection call to action
@@ -351,6 +358,7 @@ Preventing/Handling spam and offensive content in visible collections
 <a name="appwishlist">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_appwishlist.png)</a>
 
 **Acceptance criteria for my app wish list**
+
 * If the user has no apps in their wishlist they should view a message telling them how to add apps to their wishlist using the "+" icon on the app details screen
 * The apps in the wish list should be listed in reverse chronological order from newest app added to oldest app added.
 * The user should be able to edit their wish list. 
@@ -360,6 +368,7 @@ Preventing/Handling spam and offensive content in visible collections
 <a name="communityscreen">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_communityscreen.png)</a>
 
 **Acceptance criteria for the community screen**
+
 * "Community" is a main navigation item listed after "Categories"
 * User's can toggle between viewing user collections listed in order of most popular and new.
 * By default the user should view the most popular order of collections
@@ -372,6 +381,7 @@ Preventing/Handling spam and offensive content in visible collections
 <a name="reportcollection">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_reportcollection.png)</a>
 
 **Acceptance criteria for flagging a collection for abuse**
+
 * There should be an icon on the collection landing screen that allows the user to report a collection. 
 * The creator of a collection should not be able to report their own collection.
 * When the report icon has been selected, an overlay should appear asking for the reason for the report. The three options are: spam, inappropriate language, and inappropriate avatar.
@@ -380,6 +390,7 @@ Preventing/Handling spam and offensive content in visible collections
 <a name="collectionsscreendesktop">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_collectionsscreendesktop.png)</a>
 
 **Acceptance criteria for viewing all of your user collections on desktop**
+
 * Collections are visible under “My Account” when the user is signed in. 
 * On desktop the user can see Collections, Wishlist and My Apps in one view.
 * On desktop the sections of the page have titles
@@ -393,6 +404,7 @@ Preventing/Handling spam and offensive content in visible collections
 <a name="collectioncreatedesktop">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_collectioncreatedesktop.png)</a>
 
 **Acceptance criteria for creating a user collection on desktop**
+
 * The user should view this screen when she clicks on "Create collection."
 * The name of the collection is required. 
 * When the user clicks on the "Name of collection" field she should be able to enter text. 
@@ -420,6 +432,7 @@ Preventing/Handling spam and offensive content in visible collections
 <a name="collectionviewdesktop">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_collectionviewdesktop.png)</a>
 
 **Acceptance criteria for viewing a user collection on desktop**
+
 * The collection should have a name.
 * The collection should have an edit button if the user is the creator of the collection. The edit button should appear on the same level as the name of the collection field.
 * If the user selects "Edit" take the user to the edit collection screen.
@@ -432,6 +445,7 @@ Preventing/Handling spam and offensive content in visible collections
 <a name="collectioneditdesktop">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_collectioneditdesktop.png)</a>
 
 **Acceptance criteria for editing a user collection on desktop**
+
 * The user should view this screen when she clicks "Edit" on the collection landing screen.
 * The name of the collection is required. 
 * When the user clicks on the "Name of collection" field she should be able to enter text. 
@@ -461,6 +475,7 @@ Preventing/Handling spam and offensive content in visible collections
 <a name="communityscreendesktop">![he can see so much more](http://mhanratty.github.io/marketplaceux-usercollections/img/usercollections_communityscreendesktop.png)</a>
 
 **Acceptance criteria for the community screen on desktop**
+
 * Users Collections are visible under the “Community” tab in the main navigation
 * Only user collections that follow the visibility rules will be shown.
 * On desktop the sections of the page have titles
@@ -476,6 +491,7 @@ Preventing/Handling spam and offensive content in visible collections
 **Acceptance criteria for creating a collection on tablet**
 
 Same as for desktop except...
+
 * Collection search is below Collection title
 * Only 4 collections are visible at a time
 
@@ -486,6 +502,7 @@ Same as for desktop except...
 **Acceptance criteria for creating a collection on tablet**
 
 Same as for desktop except...
+
 * "Cancel" and "Done" should appear above the name of the collection.
 * The description field should appear below the graphic.
 * Apps should appear in two columns.
@@ -497,6 +514,7 @@ Same as for desktop except...
 **Acceptance criteria for viewing a collection on tablet**
 
 Same as for desktop except...
+
 * "Edit" button should appear above the name of the collection.
 * The description field should appear below the graphic.
 * Apps should appear in two columns.
@@ -508,6 +526,7 @@ Same as for desktop except...
 **Acceptance criteria for editing a collection on tablet**
 
 Same as for desktop except...
+
 * "Delete collection" and "Done" should appear above the name of the collection.
 * The description field should appear below the graphic.
 * Apps should appear in two columns.
@@ -519,5 +538,6 @@ Same as for desktop except...
 **Acceptance criteria for community screen on tablet**
 
 Same as for desktop except...
+
 * Only 4 collections are shown at a time.
 * The collection graphic is always 4 columns wide.
